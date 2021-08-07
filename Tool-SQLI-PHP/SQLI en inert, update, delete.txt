@@ -1,0 +1,12 @@
+https://www.exploit-db.com/docs/33253.pdf
+
+USERNAME:  ' or 1/*
+PASSWORD:  */ =1 --
+
+http://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet
+https://www.exploit-db.com/papers/12975/
+
+
+
+mysql error expert:
+https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf

