@@ -1,2 +1,4 @@
 php -S localhost:8000 -c php.ini
 php -S localhost:8000 -t public/
+
+php -q -S 127.0.0.1:80 -t  "C:\Users\Alejandro\Documents\GitHub\SQL-INJECTION-WITH-PHP"
